@@ -1,0 +1,63 @@
+***********************Reading the Data***********************
+
+  countyCode  countyName   cityCode  cityName   HotelCode  \
+0         AL     Albania     106078  Albanien     1003302   
+1         AL     Albania     106078  Albanien     1016189   
+2         AL     Albania     106078  Albanien     1017483   
+3         AL     Albania     106078  Albanien     1032161   
+4         AL     Albania     106078  Albanien     1040271   
+
+               HotelName  HotelRating  \
+0         Theranda Hotel    ThreeStar   
+1       Hotel Parlamenti    ThreeStar   
+2               Victoria    ThreeStar   
+3      White Dream Hotel     FourStar   
+4  Dajti Tower Belvedere     FourStar   
+
+                                             Address  \
+0  Rr. Andon Zako Cajupi Villa 6 & 7 Villa 6 & 7T...   
+1              Rruga Jeronim De Rada 75 1001 Tirana    
+2                       Dibra Street 331 331 Tirana    
+3  Rr. Elbasanit pasi kalon Pallatin e Brigadavep...   
+4  National Park Of Dajti Mountain Bb TiranaAlban...   
+
+                                         Attractions  \
+0                                                NaN   
+1                                                NaN   
+2  Distances are displayed to the nearest 0.1 mil...   
+3                                                NaN   
+4                                                NaN   
+
+                                         Description          FaxNumber  \
+0  Set in Tirana, 1.2 km from Skanderbeg Square, ...  00355 (0)42273689   
+1  Hotel Parlamenti is located in the historic ce...      0038118526210   
+2  <p>HeadLine : Near Ministry of Justice</p><p>L...     355-69-4557854   
+3  Featuring spa and wellness facilities includin...   00355 42 467 796   
+4  Enjoying a tranquil position on top of the mou...   00355 423 791 12   
+
+                                     HotelFacilities                Map  \
+0  face masks for guests available all plates  cu...   41.3216|19.81199   
+1  Private parking parking on site Private check-...  41.32737|19.82521   
+2  Concierge services Terrace Free self parking L...  41.34106|19.83108   
+3  use of cleaning chemicals that are effective a...   41.30625|19.8424   
+4  Kids  outdoor play equipment Private parking P...  41.36841|19.90581   
+
+         PhoneNumber  PinCode  \
+0  00355 (0)42273766     1019   
+1     (355) 42265024     1001   
+2     355-69-4557854     1012   
+3      355 4 2467569     1000   
+4      +355686066070     1016   
+
+                                     HotelWebsiteUrl  
+0     https://www.booking.com/hotel/al/theranda.html  
+1   https://www.booking.com/hotel/al/parlamenti.html  
+2                 http://hotelvictoria.al/en/home-2/  
+3  https://www.booking.com/hotel/al/white-dream.html  
+4  https://www.booking.com/hotel/al/dajti-tower-b...  
+
+***********************Looking at the Number of Rows and Columns***********************
+
+
+No of Rows: 104365
+No of Columns: 16

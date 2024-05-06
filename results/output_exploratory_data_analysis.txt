@@ -1,0 +1,51 @@
+***********************Looking at the Target Variable Distribution***********************
+
+HotelRating
+ThreeStar    33922
+FourStar     30064
+TwoStar      28683
+OneStar       6594
+FiveStar      5102
+Name: count, dtype: int64
+
+***********************Number of five star hotels in each city***********************
+
+HotelRating  cityName                
+FiveStar     Cornwall                    56
+             Dubai                       54
+             Bali                        49
+             London                      49
+             Western Cape                44
+                                         ..
+             Kalimpong,   West Bengal     1
+             Kalafati                     1
+             Kaka Point                   1
+             Kajang                       1
+             Ãnye                        1
+Name: count, Length: 2492, dtype: int64
+
+***********************Number of one star hotels in each city***********************
+
+HotelRating  cityName          
+OneStar      Rome                  60
+             Hong Kong             45
+             Kowloon - Hongkong    43
+             Seoul                 36
+             Nizza (Nice)          35
+                                   ..
+             Marradi                1
+             Cesson-SÃ©vignÃ©       1
+             Marsciano              1
+             Marseillan-Plage       1
+             ÃrnskÃ¶ldsvik         1
+Name: count, Length: 3338, dtype: int64
+
+***********************Looking at the Target Variable Distribution after Normalization***********************
+
+HotelRating
+ThreeStar    0.325032
+FourStar     0.288066
+TwoStar      0.274834
+OneStar      0.063182
+FiveStar     0.048886
+Name: proportion, dtype: float64
